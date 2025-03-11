@@ -4,6 +4,13 @@ import HomePage from "./pages/HomePage";
 import CareerInsights from "./pages/CareerInsights";
 import Layout from "./components/Layout";
 import Consultation from "./pages/Consultation";
+import Roadmaps from "./pages/Roadmaps";
+
+// Add route in <Routes>
+import DashboardPage from "./pages/DashboardPage";
+
+// Add route in <Routes>
+import ProfilePage from "./pages/ProfilePage";
 
 // Add route in <Routes>
 
@@ -12,6 +19,9 @@ const App = () => {
     <Router>
       <Layout>
         <Routes>
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/roadmaps" element={<Roadmaps />} />
           <Route path="/consultation" element={<Consultation />} />
           <Route path="/" element={<HomePage />} />
           <Route path="/career-insights" element={<CareerInsights />} />
