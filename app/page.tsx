@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-purple-700 to-indigo-800 text-white">
+      <header className="bg-gradient-to-r bg-[#191936] text-white">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Discover Your Perfect Tech Career Path</h1>
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-purple-700 text-white py-16">
+      <section className="bg-[#191936] text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Map Your Tech Career?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
