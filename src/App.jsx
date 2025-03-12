@@ -5,14 +5,11 @@ import CareerInsights from "./pages/CareerInsights";
 import Layout from "./components/Layout";
 import Consultation from "./pages/Consultation";
 import Roadmaps from "./pages/Roadmaps";
-
-// Add route in <Routes>
 import DashboardPage from "./pages/DashboardPage";
-
-// Add route in <Routes>
 import ProfilePage from "./pages/ProfilePage";
+import QuestionnaireForm from './components/QuestionnaireForm';
 
-// Add route in <Routes>
+
 
 const App = () => {
   return (
